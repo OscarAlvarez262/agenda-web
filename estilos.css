@@ -1,0 +1,40 @@
+p {                  /* selecciona TODOS los <p> */
+    color: #0a090a;
+    font-size: 16px;
+}
+.tarjeta {            /* por clase: class="tarjeta" */
+    background: #FEF6E8;
+    padding: 16px;
+}
+#titulo {             /* por id: id="titulo" */
+    color: #e32200;
+}
+body {
+    color: #2A2630;              /* color del texto */
+    background-color: #FEF6E8;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+h1 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; }
+.tarjeta {
+    padding: 16px;                  /* espacio interno */
+    border: 1px solid #E6DAC4;
+    margin: 20px;                   /* espacio externo */
+    box-sizing: border-box;       /* el ancho incluye padding y border */
+}
+.fila {
+    display: flex;
+    gap: 12px;                   /* separación entre cajas */
+    justify-content: space-between;  /* reparte en horizontal */
+    align-items: center;        /* centra en vertical */
+}
+.rejilla {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  /* 3 columnas iguales */
+    gap: 12px;
+}
+/* cuando la pantalla sea de 600px o menos */
+@media (max-width: 600px) {
+  .rejilla { grid-template-columns: 1fr; }  /* una sola columna */
+}

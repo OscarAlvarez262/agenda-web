@@ -1,12 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AgendaWeb·OscarAlvarez</title>
 </head>
 <body>
     <h1>Hola, soy Oscar Alejandro Alvarez Aceves</h1>
+    <hr>
     <p>Esta es la primera página de mi proyecto AgendaWeb.</p>
+    <a href="https://github.com/OscarAlvarez262" target="_blank">Mi GitHub</a>
+    <br>
+    <img src="Git.png" alt="Oscar Alvarez Avatar" width="100">
+    <p>hobbies:</p>
+    <ul>
+        <li>Videojuegos</li>
+        <li>Escuchar musica</li>
+        <li>ver series</li>
+    </ul>
+    <p>Hay Que Conocernos</p>
+    <form method="post" action="guardar.php">
+        <input type="text" name="Nombre" placeholder="Nombre">
+        <br>
+        <input type="number" name="Numero" placeholder="Número">
+        <br>
+        <input type="date" name="Fecha" placeholder="Fecha">
+        <br>
+        <textarea name="Espectativas" placeholder="Mis espectativas"></textarea>
+        <br>
+        <button type="submit">Agendar cita</button>
+    </form>
 </body>
 </html>
