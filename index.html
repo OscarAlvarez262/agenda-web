@@ -10,27 +10,28 @@
 <body>
     <center><h1>Hola, soy Oscar Alejandro Alvarez Aceves</h1></center>
     <hr>
-    <center><p>Esta es la primera página de mi proyecto AgendaWeb.</p></center>
-    <center><a href="https://github.com/OscarAlvarez262" target="_blank">Mi GitHub</a></center>
+    <center><p>Esta es la primera página de mi proyecto AgendaWeb de la materia Desarrollo de Aplicaciones Web </p></center>
     <br>
-    <center><img src="Git.png" alt="Oscar Alvarez Avatar" width="100"></center>
-    <p>algunos de  mis hobbies son :</p>
+    <center><a href="https://github.com/OscarAlvarez262" target="_blank">
+    <img src="Git.png" alt="Oscar Alvarez Avatar" width="300"></center>
+    </a>
+    <div class="lista">
+    <p>Algunos de mis pasatiempos son:</p>
     <ul>
-        <li>Videojuegos</li>
-        <li>Escuchar musica</li>
-        <li>ver series</li>
+        <li>Jugar videojuegos</li>
+        <li>Escuchar música</li>
+        <li>Ver series</li>
     </ul>
-    <p>Hay Que Conocernos</p>
+    </div>
+    <div class="formulario">
+    <p>Tienes algo que compartir conmigo</p>
     <form method="post" action="guardar.php">
-        <input type="text" name="Nombre" placeholder="Nombre">
+        <textarea name="Chisme" placeholder="Cuentamelo"></textarea>
         <br>
-        <input type="number" name="Numero" placeholder="Número">
-        <br>
-        <input type="date" name="Fecha" placeholder="Fecha">
-        <br>
-        <textarea name="Espectativas" placeholder="Mis espectativas"></textarea>
-        <br>
-        <button type="submit">Agendar cita</button>
+        <button type="submit">Enviar</button>
+
     </form>
+    </div>
+    
 </body>
 </html>

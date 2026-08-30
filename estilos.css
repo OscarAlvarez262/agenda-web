@@ -2,26 +2,42 @@ p {                  /* selecciona TODOS los <p> */
     color: #0a090a;
     font-size: 16px;
 }
-.tarjeta {            /* por clase: class="tarjeta" */
-    background: #FEF6E8;
-    padding: 16px;
-}
 #titulo {             /* por id: id="titulo" */
     color: #e32200;
 }
 body {
-    color: #2A2630;              /* color del texto */
-    background-color: #FEF6E8;
+    color: #2A2630;
+    background-color: lab(82.62% -3.28 -6.19);
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 16px;
     line-height: 1.6;
 }
+.lista {
+    text-align: center;
+}
+
+.lista ul {
+    display: inline-block;
+    text-align: left;
+}
+.formulario {
+    text-align: center;
+}
+
+.lista ul {
+    display: inline-block;
+    text-align: left;
+}
 h1 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; }
 .tarjeta {
-    padding: 16px;                  /* espacio interno */
-    border: 1px solid #E6DAC4;
-    margin: 20px;                   /* espacio externo */
-    box-sizing: border-box;       /* el ancho incluye padding y border */
+    padding: 16px;
+    border: 1px solid #ffff;
+    margin: 20px;
+    box-sizing: border-box;
+    
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 .fila {
     display: flex;
